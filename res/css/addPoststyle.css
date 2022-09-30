@@ -1,0 +1,78 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+div {
+    width: 50%;
+    height: 50%;
+    background-color:#c5c2c2 ;
+    padding: 50px;
+    margin: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+  }
+
+  
+
+
+.profilePic {
+    margin: 15;
+    font-size: 1.1em;
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.button_choosefile{
+    background-color: #34495e;
+    color:white;
+    padding:8px 10px;
+}
+
+.button_createpost{
+    background-color: rgb(3, 3, 184);
+    color:white;
+    padding:8px 10px;
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #646174;
+    background-color: #787878;
+    color: black;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #34495e;
+    font-size: .99em;
+    color:black;
+}
+
+
+
