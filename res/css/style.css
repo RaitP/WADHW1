@@ -11,6 +11,13 @@ a {
     color: #34495e;
     text-decoration: none;
 }
+a:hover{
+    background-color: rgb(201, 201, 201);
+}
+
+ul>li{
+    font-size: auto;
+}
 
 .profilePic {
     margin: 0;
@@ -36,13 +43,18 @@ section {
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #646174;
-    background-color: #2397e9;
+    background-color: #787878;
+    color:black;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.post {
+    margin: auto;
 }
 
 .postitus {
@@ -70,7 +82,7 @@ section {
 }
 
 .tekst {
-    margin-left: -215px;
+    text-align: left;
     margin-top: 0px;
 }
 
@@ -95,6 +107,7 @@ section {
     display: block;
     color: #34495e;
     font-size: .99em;
+    color:black;
 }
 
 footer {
