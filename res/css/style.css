@@ -1,6 +1,5 @@
 * {
     font-family: sans-serif;
-    box-sizing: border-box;
 }
 
 body {
@@ -46,15 +45,33 @@ section {
     justify-content: space-between;
 }
 
-.postheader{
-    display: inline-flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+.postitus {
+    background-color: lightgrey;
+    width: 300px;
+    border-radius: 25px;
+    border: 2px solid lightgrey;
+    padding: 10px;
+    margin: auto;
 }
 
+
 .posterPic {
-    padding: 10px 15px;
+    position: absolute;
+    margin-top: auto;
+    margin-left: -125px;
+}
+
+.profilePic {
+   margin: 0px 10px;
+}
+
+.kuup {
+    margin-left: 125px;
+}
+
+.tekst {
+    margin-left: -215px;
+    margin-top: 0px;
 }
 
 .like{
@@ -62,6 +79,8 @@ section {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: -260px;
+    margin-top: -10px;
 }
 
 .nav {
