@@ -51,6 +51,9 @@ section {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .post {
@@ -113,6 +116,13 @@ section {
 
 footer {
     text-align: center;
+    background-color: #787878;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.lingid{
+    display:inline;
+    color:black;
 }
 
 .likebutton{
