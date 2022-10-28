@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <meta charset="UTF-8">
     <script type="text/javascript" src="src\js\script.js"></script>
+    <script type="text/javascript" src="src\js\dropmenu_script.js"></script>
     <title>Main</title>
     <link rel="stylesheet" href="res/css/style.css">
 </head>
@@ -14,8 +15,18 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="addPost.html">addPost</a></li>
         </ul>
-        <a class="profilePic" href="login.html"><img src="res/images/profile.png" width="50" height="50" alt="profilePic"></a>
+        <!-- <a class="profilePic" href="#"><img src="res/images/profile.png" width="50" height="50" alt="profilePic"></a> -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown-content">
+            <a href="">username</a>
+            <a href="">username@ut.ee</a>
+            <a href="">logout</a>
+            </div>
+        </div>
     </header>
+
+    
     
     <section class="postitused">
         

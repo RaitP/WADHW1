@@ -1,7 +1,4 @@
 window.onload = function() {
-
-
-
     fetch('https://api.npoint.io/a47c1d77344bac778259') //küsib serverilt infi 
         .then((response) => response.json()) // see mis server saadab tule teha vastavasse formaati meie teeme json
         .then(json => {
@@ -63,3 +60,4 @@ window.onload = function() {
             document.body.appendChild(errDiv);
             })
 }
+

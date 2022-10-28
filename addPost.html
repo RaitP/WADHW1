@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <meta charset="UTF-8">
     <title>Add Post</title>
+    <script type="text/javascript" src="src\js\dropmenu_script.js"></script>
     <link rel="stylesheet" href="res/css/addPoststyle.css">
 </head>
 <body>
@@ -12,21 +13,25 @@
         <ul class="nav">
             <li><a href="index.html">Home</a></li>
         </ul>
-        <a class="profilePic" href="login.html"><img src="res/images/profile.png" width="50" height="50" alt="profilePic"></a>
+        <!-- <a class="profilePic" href="#"><img src="res/images/profile.png" width="50" height="50" alt="profilePic"></a> -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown-content">
+            <a href="#home">username</a>
+            <a href="#about">username@ut.ee</a>
+            <a href="#contact">logout</a>
+            </div>
+        </div>
     </header>
     
-    <div>
-    
+    <div class="postbody">
         <label for="Post body">Post body:</label>
         <input type="text" id="Post body" name="Post body">
         <br></br>
         <label for="Select file">Select file:</label>
         <button class="button_choosefile" type="button">Choose file</button>
         <br></br>
-        
         <button class="button_createpost" type="button" onclick="document.location='index.html'">Create post</button>
-        
-   
     </div>
 
 </body>

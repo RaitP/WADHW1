@@ -44,7 +44,7 @@ a:hover{
     padding:8px 10px;
 }
 
-div {
+.postbody {
     width: 50%;
     height: auto;
     background-color:#c5c2c2 ;
