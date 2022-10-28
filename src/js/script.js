@@ -1,6 +1,6 @@
 window.onload = function() {
-    fetch('https://api.npoint.io/a47c1d77344bac778259') //küsib serverilt infi 
-        .then((response) => response.json()) // see mis server saadab tule teha vastavasse formaati meie teeme json
+    fetch('https://api.npoint.io/a47c1d77344bac778259') 
+        .then((response) => response.json())
         .then(json => {
             console.log(json);
             console.log("--------------");
