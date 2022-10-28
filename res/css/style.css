@@ -114,7 +114,7 @@ footer {
     text-align: center;
 }
 
-@media (max-width:1000px){
-    width:100%;
-   
+.likebutton{
+    height: 25px;
+    width: 25px;
 }
