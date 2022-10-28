@@ -113,3 +113,8 @@ section {
 footer {
     text-align: center;
 }
+
+@media (max-width:1000px){
+    width:100%;
+   
+}
