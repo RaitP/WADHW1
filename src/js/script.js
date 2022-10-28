@@ -7,10 +7,10 @@ window.onload = function() {
         .then(json => {
             console.log(json);
             console.log("--------------");
-            var like = document.createElement('img')
-            like.src = "res/images/like.png"
-            like.className = "likebutton"
                 for (let post of json){
+                    var like = document.createElement('img')
+                    like.src = "res/images/like.png"
+                    like.className = "likebutton"
                     console.log(post);
                     const divPostitus = document.createElement('div')
                     const divpostheader = document.createElement('div')
@@ -18,7 +18,6 @@ window.onload = function() {
                     const divlike = document.createElement('div')
                     const p1 = document.createElement('p')
                     const p2 = document.createElement('p')
-                    var image = document.createElement('img')
                     var profile = document.createElement('img')
                     divPostitus.className = 'postitus'
                     divpostheader.className = 'postheader'
@@ -27,18 +26,22 @@ window.onload = function() {
                     p1.className = 'kuup'
                     p2.className = 'tekst'
                     profile.className = 'posterPic'
-                    image.src = post.pic
-                    image.width = 300
                     profile.src = post.profilepic
                     profile.width = 25
                     profile.height = 25
-
+                    if(post.pic !== ""){
+                        var image = document.createElement('img')
+                        image.src = post.pic
+                        image.width = 300
+                        divpost.appendChild(image)
+                    }
+            
+            
                     divPostitus.appendChild(divpostheader)
                     divPostitus.appendChild(divpost)
                     divPostitus.appendChild(divlike)
                     divpostheader.appendChild(profile)
                     divpostheader.appendChild(p1)
-                    divpost.appendChild(image)
                     divpost.appendChild(p2)
                     divlike.appendChild(like)
 
@@ -48,21 +51,8 @@ window.onload = function() {
                     
                     const section = document.querySelector('section')
                     section.appendChild(divPostitus)
-                
-
-
-                    // const h3 = document.createElement('h3')
-                    // h3.textContent = post.title
-
-                    // const p = document.createElement('p')
-                    // p.textContent = post.body
-
-                    // div.appendChild(h3)
-                    // div.appendChild(p)
-                    // div.className = 'post'
-
-                    // const body = document.querySelector('body')
-                    // body.appendChild(div)
+                    
+            
             }    
         })
 

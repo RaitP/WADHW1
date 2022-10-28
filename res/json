@@ -4,5 +4,29 @@
       "description": "Bestest leib nagu",
       "pic": "res/images/leib.jpg",
       "profilepic": "res/images/profile.png"
+    },
+    {
+      "time": "Sept 30, 2022",
+      "description": "Sain just isaks!",
+      "pic": "",
+      "profilepic": "res/images/profile.png"
+    },
+    {
+      "time": "Sept 20, 2019",
+      "description": "Tagurpidi maja :)",
+      "pic": "res/images/tagurpidi.jpg",
+      "profilepic": "res/images/profile.png"
+    },
+    {
+      "time": "Feb 14, 2017",
+      "description": "Intervjuu kitsega",
+      "pic": "res/images/kits.jpg",
+      "profilepic": "res/images/profile.png"
+    },
+    {
+      "time": "Jun 18, 2013",
+      "description": "Mell on ka Kambjas",
+      "pic": "res/images/mell.png",
+      "profilepic": "res/images/profile.png"
     }
 ]
