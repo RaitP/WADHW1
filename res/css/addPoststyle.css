@@ -14,6 +14,10 @@ a {
     transition: transform .2s
 }
 
+p {
+    color: #393738;
+}
+
 a:hover{
     /* background-color: rgb(201, 201, 201); */
     background-color: #738998;
@@ -96,6 +100,33 @@ ul {
     color: #34495e;
     font-size: .99em;
     color:black;
+}
+
+footer {
+    text-align: center;
+    background-color: #5A6267;
+    padding-top: 1%;
+    padding-bottom: 1%;  
+    bottom: 0px;  
+    width: 100%;  
+    position: fixed;
+}
+
+.lingid{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    color: #34495e;
+    font-size: .99em;
+}
+
+.lingid:hover{
+    /* background-color: rgb(201, 201, 201); */
+    background-color: #738998;
+    transform: scale(1.1) perspective(1px)
+    
 }
 
 .dropbtn {
