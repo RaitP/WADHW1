@@ -17,7 +17,7 @@ a {
 a:hover{
     /* background-color: rgb(201, 201, 201); */
     background-color: #738998;
-    transform: scale(1.1)
+    transform: scale(1.1) perspective(1px)
     
 }
 
@@ -70,10 +70,6 @@ p.intro::first-line{
     transition: transform .2s
   }
 
-.postbody:hover{
-    transform: scale(1.05)
-}
-
 .profilePic {
     margin: 0px 10px;
  }
@@ -103,6 +99,11 @@ ul {
     z-index: 999;
 }
 
+.nav {
+    margin-top: 5px;
+    display: flex;
+}
+
 .nav a {
     padding: 10px 15px;
     text-transform: uppercase;
@@ -112,6 +113,7 @@ ul {
     font-size: .99em;
     color:black;
 }
+
 
 
 

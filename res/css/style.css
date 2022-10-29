@@ -20,7 +20,7 @@ a {
 a:hover{
     /* background-color: rgb(201, 201, 201); */
     background-color: #738998;
-    transform: scale(1.1)
+    transform: scale(1.1) perspective(1px)
     
 }
 
@@ -177,6 +177,7 @@ footer {
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    overflow: hidden;
 }
 
 .dropdown-content a {
@@ -188,5 +189,5 @@ footer {
 
 .show {
     display: block;
-    margin: 0px -116px;
+    margin: 0px -120px;
 }

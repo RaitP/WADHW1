@@ -17,7 +17,7 @@ a {
 a:hover{
     /* background-color: rgb(201, 201, 201); */
     background-color: #738998;
-    transform: scale(1.1)
+    transform: scale(1.1) perspective(1px)
 }
 
 
@@ -36,10 +36,6 @@ a:hover{
     box-shadow: 3px 10px 20px #393738;
     transition: transform .2s
   }
-
-  .postbody:hover{
-    transform: scale(1.05)
-}
 
 .profilePic {
     margin: 0px 10px;
@@ -67,7 +63,7 @@ ul {
 }
 
 .button_createpost:hover, .button_choosefile:hover, .dropbtn:hover{
-    transform: scale(1.1)
+    transform: scale(1.02)
 }
 
 .header {
@@ -112,6 +108,10 @@ ul {
     transition: transform .2s
 }
 
+.dropbtn:hover{
+    transform: scale(1.1)
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -125,6 +125,7 @@ ul {
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    overflow: hidden;
 }
 
 .dropdown-content a {
@@ -136,7 +137,7 @@ ul {
 
 .show {
     display: block;
-    margin: 0px -116px;
+    margin: 0px -120px;
 }
 
 
