@@ -5,22 +5,26 @@
 body {
     line-height: 1.6;
     margin: 0;
+    background-color: #869FB2;
 }
 
 a {
     color: #34495e;
     text-decoration: none;
+    transition: transform .2s
 }
 
 a:hover{
-    background-color: rgb(201, 201, 201);
+    /* background-color: rgb(201, 201, 201); */
+    background-color: #738998;
+    transform: scale(1.1)
 }
 
 
 .postbody {
     width: 50%;
     height: auto;
-    background-color:#c5c2c2 ;
+    background-color: #F4F5F5;
     padding: 50px;
     margin: 100px;
     font-size: 20px;
@@ -29,7 +33,13 @@ a:hover{
     margin-right: auto;
     display: block;
     border-radius: 25px;
+    box-shadow: 3px 10px 20px #393738;
+    transition: transform .2s
   }
+
+  .postbody:hover{
+    transform: scale(1.05)
+}
 
 .profilePic {
     margin: 0px 10px;
@@ -46,19 +56,25 @@ ul {
     background-color: #34495e;
     color:white;
     padding:8px 10px;
+    transition: transform .2s
 }
 
 .button_createpost{
     background-color: rgb(3, 3, 184);
     color:white;
     padding:8px 10px;
+    transition: transform .2s
+}
+
+.button_createpost:hover, .button_choosefile:hover, .dropbtn:hover{
+    transform: scale(1.1)
 }
 
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
-    border: 1px solid #646174;
-    background-color: #787878;
+    border: 1px solid #5A6267;
+    background-color: #5A6267;
     color:black;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
@@ -93,6 +109,7 @@ ul {
     background-size: 40px 40px;
     background-repeat: no-repeat;
     border: none;
+    transition: transform .2s
 }
 
 .dropdown {
