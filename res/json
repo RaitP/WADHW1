@@ -28,5 +28,36 @@
       "description": "Mell on ka Kambjas",
       "pic": "res/images/mell.png",
       "profilepic": "res/images/profile.png"
-    }
+    },
+    {
+      "pic":"https://i.ytimg.com/vi/bRWc5K8-kHg/hqdefault.jpg",
+      "time":"Jan 10, 2006",
+      "profilepic":"res/images/profile.png",
+      "description":"Ma olin paugu otsas kui puu käis :O"
+    },
+    {
+      "pic":"https://buller.ee/wp-content/uploads/2020/05/mart-helme-rail-baltic.jpg",
+      "time":"Oct 28, 2022",
+      "profilepic":"res/images/profile.png",
+      "description":"Homme lahkume euroopa liidust"
+    },
+    {
+      "pic":"https://i.ytimg.com/vi/SxYPvwyiQxQ/maxresdefault.jpg",
+      "time":"Jul 12, 1997",
+      "profilepic":"res/images/profile.png",
+      "description":"Täna oli big money kohtumine"
+    },
+    {
+      "pic":"https://i.ytimg.com/vi/VSGoT1CK9wI/maxresdefault.jpg",
+      "time":"Dec 2, 2017",
+      "profilepic":"res/images/profile.png",
+      "description":"Mida tühjem tünn, seda suurem kõmin"
+    },
+    {
+      "pic":"https://www.tallinn.ee/gal_pildid/34066.jpg",
+      "time":"Jun 18, 2013",
+      "profilepic":"res/images/profile.png",
+      "description":"„Sbasibo, tavariš Putin!”"
+      }
+      
 ]
